@@ -10,3 +10,6 @@ SpecPhoto
 
 where
 class='QSO'
+
+#an additional WHERE parameter was added for the anomaly detection model
+#which specified the zErr ranges accepted
