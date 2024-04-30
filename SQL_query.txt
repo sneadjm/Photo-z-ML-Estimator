@@ -1,0 +1,12 @@
+#This was taken from the SkyServer DR14 project suggestions, with zErr added.
+#Change class = 'STAR' or class = 'GALAXY' to get different objects
+#Link to SQL data access site: https://skyserver.sdss.org/dr18/SearchTools/sql
+
+select 
+objid, modelmag_u, modelmag_g, modelmag_r, modelmag_i, modelmag_z,z, zErr as weight
+
+from
+SpecPhoto
+
+where
+class='QSO'
